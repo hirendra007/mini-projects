@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font: 1em sans-serif;
+    text-align: center;
+}
+.btn{
+    background-color: aliceblue;
+    transition: 0.25s;
+}
+.btn:hover {
+    background-color: rgb(15, 99, 245);
+}
