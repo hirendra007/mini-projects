@@ -1,0 +1,16 @@
+body{
+    background: black;
+    color: antiquewhite;
+    font-family: sans-serif;
+    font-size: larger;
+}
+#clock{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 0px solid;
+   height: 60ch; 
+}
+#time{
+  font-size: 10ch;
+}
