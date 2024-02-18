@@ -1,0 +1,40 @@
+*{
+    background-color: black;
+    color: rgb(247, 247, 247);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1ch solid grey;
+    margin: auto;
+    width: 30%;
+    }
+#time{
+    border-radius: 10ch;
+    border: solid white;
+    padding-inline: 3ch;
+}
+#start{
+    background-color: rgb(48, 184, 48);
+    transition: 0.25s;
+}
+#start:hover{
+    background-color: green;
+}
+#pause{
+    background-color: rgb(36, 106, 192);
+    transition: 0.25s;
+}
+#pause:hover{
+    background-color: blue;
+}
+#reset{
+    background-color: rgb(245, 58, 58);
+    transition: 0.25s;
+}
+#reset:hover{
+    background-color: red;
+}
