@@ -1,0 +1,54 @@
+body{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+.btn{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+    justify-content: center;
+}
+#display{
+    height: 100px;
+    font-size:2em;
+    color: white;
+    padding: 2px;
+    width: 99%;
+    text-align: left;
+    background-color: rgb(47, 46, 46);
+    border: 0ch;
+}
+#empty{
+    background: none;
+    border: none;
+    visibility: hidden;
+}
+.cal{
+    background: black;
+    width:  500px;
+    overflow: hidden;
+    border-radius: 8%;
+    border: solid  2px rgb(65, 59, 59);
+ 
+}
+button{
+    height: 100px;
+    width: 100px;
+    border-style: none;
+    border-radius: 50%;
+    font-size: 2em;
+    background-color: grey;
+    color: white;
+    
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+button:active{
+    background-color:#A9A9A9 ;
+}
