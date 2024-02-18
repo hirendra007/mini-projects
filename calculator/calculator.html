@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="calulator.css">
+</head>
+<body>
+    <section class="calulator">
+        <div class="cal">
+        <input  type="text" id="display" readonly>
+        <div class="btn">
+            <button onclick="clearall()">C</button>
+            <button onclick="backspace()"><i class='fas fa-backspace'></i></button>
+            <button onclick="number('%')">%</button>
+            <button onclick="number('/')"><i class='fas fa-divide'></i></button>
+            <button onclick="number(7)">7</button>
+            <button onclick="number(8)">8</button>
+            <button onclick="number(9)">9</button>
+            <button onclick="number('*')"><i class='fas fa-multiply'></i></button>
+            <button onclick="number(4)">4</button>
+            <button onclick="number(5)">5</button>
+            <button onclick="number(6)">6</button>
+            <button onclick="number('-')"><i class='fas fa-subtract'></i></button>
+            <button onclick="number(1)">1</button>
+            <button onclick="number(2)">2</button>
+            <button onclick="number(3)">3</button>
+            <button onclick="number('+')"><i class='fas fa-add'></i></button>
+            <button id="empty"></button>
+            <button onclick="number(0)">0</button>
+            <button onclick="number('.')">.</button>
+            <button onclick="calculate()">=</button>
+
+        </div>
+        <div></div>
+        </div>
+    </section>
+    <script src="calulator.js"></script>
+</body>
+</html>
